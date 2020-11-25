@@ -43,7 +43,7 @@ const countDown = () => {
 return (
     <div className="Main">
         <p className="Text">Learn useEffect</p>
-        <p>Kelompok 33</p>
+        <p>Kelompok 17</p>
         <ul>
             {data.slice(0, 10).map((value) => (
                 <li key={value.id}>{value.title}</li>
